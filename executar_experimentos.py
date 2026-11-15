@@ -67,7 +67,18 @@ def main():
               "|---|---|---:|---:|---:|---:|"]
     for r in linhas:
         tabela.append(f"| {r['execucao']} | {r['modo']} | {r['esperado']} | {r['obtido']} | {r['perdidos']} | {r['segundos']:.6f} |")
-    (LOGS / "resultados.md").write_text("\n".join(tabela) + "\n", encoding="utf-8")
+    tabela_markdown = "\n".join(tabela) + "\n"
+    (LOGS / "resultados.md").write_text(tabela_markdown, encoding="utf-8")
+    # Mantém a tabela exigida no README alinhada à execução recém-realizada.
+    readme = RAIZ / "README.md"
+    texto_readme = readme.read_text(encoding="utf-8")
+    inicio_tabela = "<!-- RESULTADOS_INICIO -->"
+    fim_tabela = "<!-- RESULTADOS_FIM -->"
+    assert texto_readme.count(inicio_tabela) == texto_readme.count(fim_tabela) == 1
+    antes, restante = texto_readme.split(inicio_tabela, 1)
+    _, depois = restante.split(fim_tabela, 1)
+    readme.write_text(antes + inicio_tabela + "\n" + tabela_markdown
+                      + fim_tabela + depois, encoding="utf-8")
     print("Experimentos concluídos. Resultados reais em evidencias/.")
 
 
