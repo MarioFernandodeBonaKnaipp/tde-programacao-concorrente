@@ -1,18 +1,20 @@
 # Programação Concorrente — Filósofos, Semáforos e Deadlock
 
+**Vídeo da apresentação:** [Assistir no YouTube](https://youtu.be/bW6B_y30O-I?si=D5wO3CIVQqYy7tWc)
+
 ## Identificação
 
 - **Integrante e apresentador:** Mario Fernando de Bona Knaipp.
 - **Composição:** individual, com um único integrante.
 - **GitHub:** [MarioFernandodeBonaKnaipp](https://github.com/MarioFernandodeBonaKnaipp).
-- **Vídeo:** link pendente de gravação e publicação.
+- **Vídeo:** disponível no link acima.
 
 ## Situação do material
 
 - As três partes estão implementadas em Python, somente com biblioteca padrão.
 - Os experimentos foram executados; logs e resultados estão em `evidencias/`.
-- Não foi feita submissão no Canvas nem gravação de vídeo. Repositório: https://github.com/MarioFernandodeBonaKnaipp/tde-programacao-concorrente.
-- O nome do grupo no AVA e o link do vídeo ainda não foram informados; o único integrante está identificado acima.
+- Repositório: https://github.com/MarioFernandodeBonaKnaipp/tde-programacao-concorrente.
+- O nome do grupo no AVA ainda não foi informado; o único integrante está identificado acima.
 
 ## Ambiente e execução
 
@@ -164,7 +166,7 @@ Para concluir a entrega:
 
 - Conferir o vínculo ao grupo no AVA; Mario Fernando de Bona Knaipp é o único integrante.
 - Manter os códigos, as instruções e as evidências de execução no repositório público.
-- Gravar e publicar um vídeo individual de até dez minutos, público ou não listado, com explicações das três partes, demonstrações, áudio claro e ao menos 720p.
+- Conferir no vídeo publicado: duração de até dez minutos, visibilidade pública ou não listada, explicações das três partes, demonstrações, áudio claro e ao menos 720p.
 - Link do vídeo visível no README; grupo corretamente formado no AVA.
 - Submissão dos links do repositório e do vídeo no Canvas até 15/11/2026 às 23h59, conforme prazo exibido na atividade.
 
