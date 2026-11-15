@@ -176,4 +176,4 @@ A publicação no GitHub não representa submissão ao Canvas. Os caminhos locai
 - [Python: time — perf_counter e sleep](https://docs.python.org/3/library/time.html).
 - [Python: faulthandler — diagnóstico de pilhas](https://docs.python.org/3/library/faulthandler.html).
 
-Consulte também o enunciado e os materiais da disciplina. O guia `GUIA_DE_ESTUDO.md` contém exemplos pequenos e questões para conferir entendimento; não é um roteiro de vídeo.
+Consulte também o enunciado e os materiais da disciplina.
