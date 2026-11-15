@@ -1,0 +1,1 @@
+{"modo": "com", "threads": 8, "incrementos": 200000, "ceder_cada": 1000, "esperado": 1600000, "obtido": 1600000, "perdidos": 0, "segundos": 1.041429, "tentativas_por_segundo": 1536350.24}

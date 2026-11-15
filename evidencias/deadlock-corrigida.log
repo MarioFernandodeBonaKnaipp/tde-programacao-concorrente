@@ -1,0 +1,7 @@
+T1: adquiriu A
+T1: aguarda B
+T1: concluiu
+T2: adquiriu A
+T2: aguarda B
+T2: concluiu
+OK: ambas concluíram; locks liberados.

@@ -1,0 +1,56 @@
+P0: pensando
+P0: com fome
+P0: segura garfo 0
+P1: pensando
+P1: com fome
+P1: segura garfo 1
+P2: pensando
+P2: com fome
+P2: segura garfo 2
+P3: pensando
+P3: com fome
+P3: segura garfo 3
+P4: pensando
+P4: com fome
+P4: segura garfo 4
+P4: aguarda garfo 3
+P3: aguarda garfo 2
+P1: aguarda garfo 0
+P2: aguarda garfo 1
+P0: aguarda garfo 4
+DEADLOCK: todos retêm um garfo e precisam de outro retido.
+Thread 0x000016fc (most recent call first):
+  File ".\parte1-filosofos\filosofos.py", line 31 in filosofo
+  File "<python>\Lib\threading.py", line 1012 in run
+  File "<python>\Lib\threading.py", line 1075 in _bootstrap_inner
+  File "<python>\Lib\threading.py", line 1032 in _bootstrap
+
+Thread 0x00003bd4 (most recent call first):
+  File ".\parte1-filosofos\filosofos.py", line 31 in filosofo
+  File "<python>\Lib\threading.py", line 1012 in run
+  File "<python>\Lib\threading.py", line 1075 in _bootstrap_inner
+  File "<python>\Lib\threading.py", line 1032 in _bootstrap
+
+Thread 0x00009604 (most recent call first):
+  File ".\parte1-filosofos\filosofos.py", line 31 in filosofo
+  File "<python>\Lib\threading.py", line 1012 in run
+  File "<python>\Lib\threading.py", line 1075 in _bootstrap_inner
+  File "<python>\Lib\threading.py", line 1032 in _bootstrap
+
+Thread 0x0000b15c (most recent call first):
+  File ".\parte1-filosofos\filosofos.py", line 31 in filosofo
+  File "<python>\Lib\threading.py", line 1012 in run
+  File "<python>\Lib\threading.py", line 1075 in _bootstrap_inner
+  File "<python>\Lib\threading.py", line 1032 in _bootstrap
+
+Thread 0x00009a70 (most recent call first):
+  File ".\parte1-filosofos\filosofos.py", line 31 in filosofo
+  File "<python>\Lib\threading.py", line 1012 in run
+  File "<python>\Lib\threading.py", line 1075 in _bootstrap_inner
+  File "<python>\Lib\threading.py", line 1032 in _bootstrap
+
+Current thread 0x000029f0 (most recent call first):
+  File ".\parte1-filosofos\filosofos.py", line 42 in ingenua
+  File ".\parte1-filosofos\filosofos.py", line 121 in <module>
+
+Supervisor: processo encerrado por timeout após diagnóstico de deadlock.

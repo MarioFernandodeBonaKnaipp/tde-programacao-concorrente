@@ -1,0 +1,22 @@
+T1: adquiriu A
+T2: adquiriu B
+T1: aguarda B
+T2: aguarda A
+DEADLOCK: T1 retém A e espera B; T2 retém B e espera A.
+Thread 0x00007898 (most recent call first):
+  File ".\parte3-deadlock\deadlock.py", line 32 in tarefa
+  File "<python>\Lib\threading.py", line 1012 in run
+  File "<python>\Lib\threading.py", line 1075 in _bootstrap_inner
+  File "<python>\Lib\threading.py", line 1032 in _bootstrap
+
+Thread 0x00008e60 (most recent call first):
+  File ".\parte3-deadlock\deadlock.py", line 32 in tarefa
+  File "<python>\Lib\threading.py", line 1012 in run
+  File "<python>\Lib\threading.py", line 1075 in _bootstrap_inner
+  File "<python>\Lib\threading.py", line 1032 in _bootstrap
+
+Current thread 0x00002b3c (most recent call first):
+  File ".\parte3-deadlock\deadlock.py", line 46 in executar
+  File ".\parte3-deadlock\deadlock.py", line 58 in <module>
+
+Supervisor: processo encerrado por timeout após diagnóstico de deadlock.

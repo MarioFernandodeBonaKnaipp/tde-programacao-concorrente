@@ -1,0 +1,10 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "plataforma": "Windows-11-10.0.26200-SP0",
+  "executado_em_utc": "2026-11-15T18:00:09.149899+00:00",
+  "threads": 8,
+  "incrementos_por_thread": 200000,
+  "ceder_cada": 1000,
+  "repeticoes_por_modo": 3,
+  "nota": "Horário do relógio de execução; não determina o prazo do Canvas."
+}

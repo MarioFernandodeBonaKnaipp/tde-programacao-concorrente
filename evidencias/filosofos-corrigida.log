@@ -1,0 +1,101 @@
+P4: pensando
+P0: pensando
+P3: pensando
+P1: pensando
+P2: pensando
+P0: com fome
+P0: comendo
+P1: com fome
+P2: com fome
+P3: com fome
+P0: pensando (garfos devolvidos)
+P0: pensando
+P1: comendo
+P4: com fome
+P0: com fome
+P1: pensando (garfos devolvidos)
+P1: pensando
+P2: comendo
+P1: com fome
+P2: pensando (garfos devolvidos)
+P2: pensando
+P3: comendo
+P3: pensando (garfos devolvidos)
+P3: pensando
+P2: com fome
+P4: comendo
+P4: pensando (garfos devolvidos)
+P4: pensando
+P0: comendo
+P3: com fome
+P0: pensando (garfos devolvidos)
+P0: pensando
+P1: comendo
+P0: com fome
+P4: com fome
+P1: pensando (garfos devolvidos)
+P1: pensando
+P2: comendo
+P1: com fome
+P2: pensando (garfos devolvidos)
+P2: pensando
+P0: comendo
+P3: comendo
+P0: pensando (garfos devolvidos)
+P0: pensando
+P4: comendo
+P3: pensando (garfos devolvidos)
+P3: pensando
+P1: comendo
+P2: com fome
+P0: com fome
+P4: pensando (garfos devolvidos)
+P4: pensando
+P1: pensando (garfos devolvidos)
+P1: pensando
+P2: comendo
+P0: comendo
+P3: com fome
+P1: com fome
+P0: pensando (garfos devolvidos)
+P0: pensando
+P2: pensando (garfos devolvidos)
+P2: pensando
+P3: comendo
+P1: comendo
+P0: com fome
+P4: com fome
+P1: pensando (garfos devolvidos)
+P1: pensando
+P2: com fome
+P3: pensando (garfos devolvidos)
+P3: pensando
+P0: comendo
+P1: com fome
+P0: pensando (garfos devolvidos)
+P4: comendo
+P2: comendo
+P3: com fome
+P2: pensando (garfos devolvidos)
+P2: pensando
+P4: pensando (garfos devolvidos)
+P4: pensando
+P1: comendo
+P3: comendo
+P2: com fome
+P2: comendo
+P1: pensando (garfos devolvidos)
+P3: pensando (garfos devolvidos)
+P3: pensando
+P4: com fome
+P4: comendo
+P2: pensando (garfos devolvidos)
+P3: com fome
+P4: pensando (garfos devolvidos)
+P4: pensando
+P3: comendo
+P3: pensando (garfos devolvidos)
+P4: com fome
+P4: comendo
+P4: pensando (garfos devolvidos)
+OK: refeições por filósofo=[5, 5, 5, 5, 5]; máximo simultâneo=2
